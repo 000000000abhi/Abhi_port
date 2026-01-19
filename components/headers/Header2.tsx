@@ -18,7 +18,7 @@ export default function Header2() {
               About
             </Link>
             <Link href="/blog" className="hover:text-gray-300 transition-colors">
-              Blog
+              Odyssey
             </Link>
             <Link href="/portfolio" className="hover:text-gray-300 transition-colors">
               Portfolio
