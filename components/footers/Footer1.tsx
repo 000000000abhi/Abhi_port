@@ -55,10 +55,10 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex gap-4">
               {[
-                { href: 'https://github.com', icon: FaGithub, label: "GitHub" },
-                { href: 'https://linkedin.com', icon: FaLinkedin, label: "LinkedIn" },
-                { href: 'https://twitter.com', icon: FaTwitter, label: "Twitter" },
-                { href: 'mailto:contact@example.com', icon: FaEnvelope, label: "Email" },
+                { href: 'https://github.com/abhishekrverma', icon: FaGithub, label: "GitHub" },
+                { href: 'https://linkedin.com/in/abhishekrverma', icon: FaLinkedin, label: "LinkedIn" },
+                { href: 'https://x.com/its_arv', icon: FaTwitter, label: "Twitter" },
+                { href: 'mailto:abhishekranjanv070@gmail.com', icon: FaEnvelope, label: "Email" },
               ].map((social, index) => (
                 <motion.a
                   key={index}
@@ -90,8 +90,12 @@ export default function Footer() {
                 { href: '/', label: 'Home' },
                 { href: '/about', label: 'About Me' },
                 { href: '/portfolio', label: 'Projects' },
-                { href: '/resume', label: 'Resume' },
-                { href: '/blog', label: 'Blog' },
+                { 
+      href: 'https://drive.google.com/file/d/1aMY2_3a6nXtL-_y1xOI2apV6L6fL5L7E/view?usp=drivesdk', 
+      label: 'Resume',
+      target: '_blank' // Opens in new tab
+    },
+                { href: '/blog', label: 'Odyssey '},
               ].map((link) => (
                 <li key={link.href}>
                   <motion.div variants={linkVariants} whileHover="hover" className="inline-block">
@@ -137,7 +141,7 @@ export default function Footer() {
           className="border-t border-slate-200 dark:border-white/10 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500 dark:text-slate-500"
         >
           <p>&copy; {new Date().getFullYear()} Abhishek R. Verma. All rights reserved.</p>
-          <p className="mt-2 md:mt-0">Designed & Built with Next.js</p>
+          <p className="mt-2 md:mt-0">Designed & Built by Abhishek</p>
         </motion.div>
       </div>
     </motion.footer>

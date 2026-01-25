@@ -337,9 +337,9 @@ export default function About() {
             <div className="pl-2 border-l-2 border-slate-200 dark:border-slate-700 ml-3">
               <div className="pl-4">
                 <h4 className="text-md font-bold text-slate-800 dark:text-slate-200">Full Stack and AI Intern</h4>
-                <p className="text-xs text-slate-500 mb-2">Nov 2022 - Present</p>
+                <p className="text-xs text-slate-500 mb-2">jan 2025 - feb 2025</p>
                 <p className="text-sm text-slate-600 dark:text-slate-400">
-                  Built a portfolio generator with Gemini API and an attendance automation system.
+                  Built a portfolio generator with Gemini API and  pdf extraction using python .
                 </p>
               </div>
             </div>
@@ -367,9 +367,7 @@ export default function About() {
               <div className="mb-4">
                 <h4 className="font-bold text-lg">NIET, Greater Noida</h4>
                 <p className="text-blue-100 text-sm">B.Tech - CSE (AI & ML)</p>
-                <div className="mt-2 inline-flex px-3 py-1 bg-white/20 backdrop-blur-md rounded-lg text-xs font-bold">
-                  CGPA: 8.2
-                </div>
+                
               </div>
 
               <div>

@@ -73,7 +73,7 @@ export default function Footer3() {
             <h4 className="font-semibold mb-4 text-gray-200">Follow Me</h4>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/abhishekrverma" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="text-gray-400 hover:text-white transition-colors text-xl"
@@ -82,7 +82,7 @@ export default function Footer3() {
                 <FaGithub />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://linkedin.com/in/abhishekrverma" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="text-gray-400 hover:text-white transition-colors text-xl"
@@ -91,7 +91,7 @@ export default function Footer3() {
                 <FaLinkedin />
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://x.com/its_arv" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="text-gray-400 hover:text-white transition-colors text-xl"

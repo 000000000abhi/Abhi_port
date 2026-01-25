@@ -72,16 +72,16 @@ export default function Footer2() {
           <div>
             <h4 className="font-semibold mb-4 text-gray-900 dark:text-white">Follow Me</h4>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-xl">
+              <a href="https://github.com/abhishekrverma" target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-xl">
                 <FaGithub />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-xl">
+              <a href="https://linkedin.com/in/abhishekrverma" target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-xl">
                 <FaLinkedin />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-xl">
+              <a href="https://x.com/its_arv" target="_blank" rel="noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-xl">
                 <FaTwitter />
               </a>
-              <a href="mailto:contact@example.com" className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-xl">
+              <a href="mailto:abhishekrverma070@gmail.com" className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-xl">
                 <FaEnvelope />
               </a>
             </div>

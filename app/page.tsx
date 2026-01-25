@@ -21,7 +21,7 @@ const resumeData = {
   stats: [
     { label: "Projects Completed", value: "10+", icon: FaRocket },
     { label: "CodeChef Rating", value: "3-Star", icon: FaCode },
-    { label: "LeetCode Problems", value: "400+", icon: FaLaptopCode },
+    { label: "coding Problems", value: "400+", icon: FaLaptopCode },
   ]
 };
 
@@ -45,7 +45,7 @@ const projects = [
     title: "E-Commerce Platform",
     desc: "Full-stack shopping experience with payment integration.",
     tags: ["Next.js", "Stripe", "MongoDB"],
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?q=80&w=1000&auto=format&fit=crop"
+    image: "https://imgs.search.brave.com/zuCwUf2l1TexwLyG9xKsl0yhr5vr2bhnfeejgLfwq_Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE4/NDIzMTk2NC9waG90/by9tYW4tcHVyY2hh/c2luZy1zaG9lcy1v/bi1hbi1vbmxpbmUt/c2hvcC5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9dnBYQ20w/dkJFeS1jS2hMNTRo/Qlgxa1c3bUttTmhm/RWRCNjB2anQxVjU5/UT0"
   },
   {
     id: 4,
@@ -325,21 +325,25 @@ export default function Home() {
             <div className="order-1 lg:order-2 relative w-full flex justify-center items-center h-[500px]">
                 <div className="absolute w-[350px] h-[350px] bg-purple-500/30 rounded-full blur-[100px] animate-pulse-slow" />
                 
-                <TiltCard className="relative z-10 w-[320px] h-[320px] md:w-[400px] md:h-[400px] rounded-full [perspective:1000px] cursor-pointer">
-                    <div className="w-full h-full rounded-full overflow-hidden border-4 border-white/20 shadow-2xl bg-slate-900 relative">
-                      <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent pointer-events-none z-20"></div>
-                      <img 
-                          src="/DSC_0026.png"
-                          alt="Abhishek R. Verma" 
-                          className="w-full h-full object-cover scale-110"
-                          style={{ 
-                              objectPosition: 'center 20%',
-                              maskImage: 'linear-gradient(to bottom, black 50%, transparent 100%)',
-                              WebkitMaskImage: 'linear-gradient(to bottom, black 50%, transparent 100%)'
-                          }}
-                      />
-                    </div>
-                </TiltCard>
+                <TiltCard className="relative z-10 w-[330px] h-[320px] md:w-[400px] md:h-[400px] rounded-full [perspective:1000px] cursor-pointer">
+  <div className="w-full h-full rounded-full overflow-hidden border-4 border-white/20 shadow-2xl bg-slate-900 relative">
+    
+    {/* Shine effect overlay */}
+    <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent pointer-events-none z-20"></div>
+    
+    <img 
+      src="/DSC_0026.png"
+      alt="Abhishek R. Verma" 
+      // 1. Removed 'scale-110' so it fits naturally
+      // 2. Added 'object-top' (Tailwind) to anchor to the top
+      className="w-full h-full object-cover object-top"
+      style={{ 
+        // 3. Fallback explicit positioning to ensure head isn't cut
+        objectPosition: 'top center',
+      }}
+    />
+  </div>
+</TiltCard>
             </div>
 
           </div>

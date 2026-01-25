@@ -7,7 +7,7 @@ export default function Header3() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-bold text-gray-900">
-              Developer X
+             Abhishek
             </Link>
           </div>
           <div className="hidden md:flex space-x-8">
